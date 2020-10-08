@@ -69,6 +69,9 @@ exports.updateCenter = asyncHandler(async (req, res, next) => {
     new: true,
     runValidators: true,
   });
+  if (!center) {
+    return next(new ErrorResponse("Center with that ID does not exist", 400));
+  }
 
   res.status(200).json({
     success: true,

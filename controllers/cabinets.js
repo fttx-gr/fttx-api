@@ -71,7 +71,9 @@ exports.updateCabinet = asyncHandler(async (req, res, next) => {
     new: true,
     runValidators: true,
   });
-
+  if (!cabinet) {
+    return next(new ErrorResponse("Cabinet with that ID does not exist", 400));
+  }
   res.status(200).json({
     success: true,
     data: cabinet,
