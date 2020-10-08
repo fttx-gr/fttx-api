@@ -90,7 +90,7 @@ app.get("/*", (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(
+const server = app.listen(
   PORT,
   console.log(
     `Server running in ${process.env.ENVIRONMENT} mode on port ${PORT}`.yellow
