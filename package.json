@@ -21,7 +21,7 @@
     "ioredis": "^4.27.11",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "mongoose": "^6.0.10",
+    "mongoose": "^6.1.9",
     "morgan": "^1.10.0",
     "node-fetch": "^3.0.0",
     "node-geocoder": "^3.27.0",
