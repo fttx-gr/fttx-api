@@ -18,7 +18,7 @@
     "express-rate-limit": "^5.5.0",
     "helmet": "^4.6.0",
     "hpp": "^0.2.3",
-    "ioredis": "^4.27.11",
+    "ioredis": "^4.28.4",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "mongoose": "^6.0.10",
